@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Generator Help of JavaScript</title>
+    <link rel="stylesheet" href="Colour-Picker.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <label for="red">R</label>
+            <input type="range" min="0" max="255" value="0" id="red" />
+        </div>
+        <div class="wrapper">
+            <label for="green">G</label>
+            <input type="range" min="0" max="255" value="0" id="green" />
+        </div>
+        <div class="wrapper">
+            <label for="blue">B</label>
+            <input type="range" min="0" max="255" value="0" id="blue" />
+        </div>
+        <div class="result">
+            <input type="text" value="rgb(0,0,0)" readonly />
+            <button id="copy-btn">Copy Color Code</button>
+        </div>
+    </div>
+
+    <script src="Colour-Picker.js"></script>
+</body>
+
+</html>
+  
